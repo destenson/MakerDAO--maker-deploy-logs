@@ -2,8 +2,10 @@ var env = require("./env");
 var eth = env.eth;
 var _ = require("underscore")._
 
-
+//console.log(env.types.getData("/"));
+console.log(env.types.getData("/DSBalanceDB"));
 var code = "0x"+ env.types.getData("/DSBalanceDB/bin");
+
 var DSBalanceDB = env.eth.contract(JSON.parse(env.types.getData("/DSBalanceDB/abi")));
 //console.log(DSBalanceDB);
 var dbs = ["mkr_db", "dai_db"];

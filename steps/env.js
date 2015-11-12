@@ -11,7 +11,7 @@ web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
 web3.eth.defaultAccount = web3.eth.coinbase;
 
 
-exports.types = new jsondb("_types", true, true);
+exports.types = new jsondb("unformatted_types", true, true);
 exports.deployed = new jsondb("contexts/tmp/deployed.json", true, true);
 
 
