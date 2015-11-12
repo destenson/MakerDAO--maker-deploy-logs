@@ -1,0 +1,16 @@
+{
+  "name": "maker-deploy-logs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "node-json-db": "^0.5.1",
+    "underscore": "^1.8.3",
+    "web3": "^0.15.1"
+  }
+}
