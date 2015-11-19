@@ -1,6 +1,1 @@
-    solc asset/* auth/* data/* --optimize --combined-json bin,abi,bin-runtime > ../unformatted_types.json
-    node format_types.js
-    node steps/step1.js
-    node steps/step2.js
-    node steps/step3.js
-    node steps/step4.js
+a log of actions done on the maker system on the ethereum network before there is some kind of more structure deployment process
