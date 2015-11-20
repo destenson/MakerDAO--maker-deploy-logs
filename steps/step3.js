@@ -1,6 +1,6 @@
 var env = require("./env");
 var auth = env.get_web3_type("DSBasicAuthority");
-var code = env.types.getData("/DSBasicAuthority/bin");
+var code = env.types.getData("/contracts/DSBasicAuthority/bin");
 
 auth.new({
 	data: code,

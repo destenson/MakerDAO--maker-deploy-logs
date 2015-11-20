@@ -1,6 +1,6 @@
 var env = require("./env");
 var mar = env.get_web3_type("DSMap");
-var code = env.types.getData("/DSMap/bin");
+var code = env.types.getData("/contracts/DSMap/bin");
 
 console.log("code:",code);
 

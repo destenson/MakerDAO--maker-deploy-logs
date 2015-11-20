@@ -3,10 +3,10 @@ var eth = env.eth;
 var _ = require("underscore")._
 
 //console.log(env.types.getData("/"));
-console.log(env.types.getData("/DSBalanceDB"));
-var code = "0x"+ env.types.getData("/DSBalanceDB/bin");
+console.log(env.types.getData("/contracts/DSBalanceDB"));
+var code = "0x"+ env.types.getData("/contracts/DSBalanceDB/bin");
 
-var DSBalanceDB = env.eth.contract(JSON.parse(env.types.getData("/DSBalanceDB/abi")));
+var DSBalanceDB = env.eth.contract(JSON.parse(env.types.getData("/contracts/DSBalanceDB/abi")));
 //console.log(DSBalanceDB);
 var dbs = ["mkr_db", "dai_db"];
 _.each(dbs, function(name) {

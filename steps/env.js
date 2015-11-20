@@ -16,5 +16,5 @@ exports.deployed = new jsondb("contexts/tmp/deployed.json", true, true);
 
 
 exports.get_web3_type = function(name) {
-	return web3.eth.contract(JSON.parse(exports.types.getData("/"+name+"/abi")));
+	return web3.eth.contract(JSON.parse(exports.types.getData("/contracts/"+name+"/abi")));
 }
