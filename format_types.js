@@ -4,7 +4,7 @@ var _ = require("underscore")._
 var unparsed_types = JSON.parse(fs.readFileSync("unformatted_types.json"))["contracts"];
 //console.log(unparsed_types);
 var out = {};
-var types = ["DSAsset0", "DSBalanceDB", "DSBasicAuthority", "DSMap"];
+var types = ["DSAsset0Impl", "DSBalanceDB", "DSBasicAuthority", "DSMap"];
 _.each(unparsed_types, function(val, name) {
     //console.log(name);
 	if( types.indexOf(name) != -1 ) {
