@@ -12,7 +12,7 @@ web3.eth.defaultAccount = web3.eth.coinbase;
 
 
 exports.types = new jsondb("unformatted_types", true, true);
-exports.deployed = new jsondb("contexts/tmp/deployed.json", true, true);
+exports.deployed = new jsondb("contexts/eth/deployed.json", true, true);
 
 
 exports.get_web3_type = function(name) {
